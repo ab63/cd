@@ -1,4 +1,4 @@
-.container {
+.infinite-scroll-component  {
   padding: 49px 50px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
