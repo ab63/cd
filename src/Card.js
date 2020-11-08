@@ -45,7 +45,7 @@ function Card({college}) {
             <div className="offers">
                 <div className="discount"> {college.offertext} </div>
                 {college.amenties.map((ammenity)=>(
-                <span className="ammenities">{ammenity}</span>
+                <span className="amenties">{ammenity}</span>
                 ))}
             </div>
         </div>
