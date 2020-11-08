@@ -1,7 +1,15 @@
 .infinite-scroll-component {
   padding: 49px 50px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr); /* see notes below */
+}
+
+@media(max-width:1380px){
+  .infinite-scroll-component {
+    padding: 49px 50px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .bg {
@@ -61,12 +69,12 @@
   margin: 10px 0;
 }
 
-.dark{
+.dark {
   color: #444;
 }
 
-.light{
-  color: #adadad
+.light {
+  color: #adadad;
 }
 
 .info-main .name {
